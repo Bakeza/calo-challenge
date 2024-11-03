@@ -47,23 +47,23 @@ This project involves creating a fullstack application with a backend service an
 
    #### Backend
    - **Create a `.env` File**
-     In the `backend` folder, create a `.env` file and add your Unsplash API access key.
+     In the `server` folder, create a `.env` file and add your Unsplash API access key.
      ```bash
      ACCESS_KEY=your_unsplash_access_key
      ```
    - **Install Dependencies & Start the Server**
      Run the following commands to install necessary packages and start the server.
      ```bash
-     cd backend
+     cd server
      npm install
      npm run dev
      ```
 
    #### Frontend
    - **Navigate to the Frontend Directory**
-     Move into the `frontend` folder.
+     Move into the `client` folder.
      ```bash
-     cd ../frontend
+     cd ../client
      ```
    - **Install Dependencies & Start the Client**
      Run the following to set up and start the frontend client.
